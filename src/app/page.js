@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
 import Goals from "./components/Goals";
+import Support from "./components/Support";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -24,6 +26,11 @@ export default function Home() {
         title10a="Improvement"
         title11="Leave Bequest"
       />
+      <Support
+        heading="We are here to support you no matter the financial occasion"
+        button="Learn More"
+      />
+      <About heading="About Us" />
     </div>
   );
 }

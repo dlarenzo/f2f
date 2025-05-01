@@ -26,7 +26,7 @@ const Navbar = () => {
           />
         </Link>
 
-        <ul className="hidden md:flex space-x-4">
+        <ul className="hidden sm:flex space-x-4">
           <li className="font-semibold text-lg hover:text-yellow-400">
             <Link href="/">Home</Link>
           </li>
