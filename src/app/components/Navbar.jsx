@@ -28,7 +28,7 @@ const Navbar = () => {
 
         <ul className="hidden sm:flex space-x-4">
           <li className="font-semibold text-lg hover:text-yellow-400">
-            <Link href="/">Home</Link>
+            <Link href="#home">Home</Link>
           </li>
           <li className="font-semibold text-lg hover:text-yellow-400">
             <Link href="#about">About</Link>

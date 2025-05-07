@@ -3,10 +3,11 @@ import Hero from "./components/Hero";
 import Goals from "./components/Goals";
 import Support from "./components/Support";
 import About from "./components/About";
+import Solutions from "./components/Solutions";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Hero heading="Coaching You To " heading2="Financial Success" />
       <Goals
         heading="What Are Your Retirement Goals?"
@@ -24,12 +25,11 @@ export default function Home() {
         title9=" Wedding"
         title10="Home"
         title10a="Improvement"
-        title11="Leave Bequest"
+        title11="Leave"
+        title11a="Bequest"
       />
-      <Support
-        heading="We are here to support you no matter the financial occasion"
-        button="Learn More"
-      />
+      <Solutions heading="Investment Solutions" />
+      <Support button="Learn More" />
       <About heading="About Us" />
     </div>
   );

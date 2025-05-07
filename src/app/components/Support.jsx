@@ -3,7 +3,7 @@ import React from "react";
 const Support = () => {
   return (
     <div className="mt-40">
-      <div className="relative flex items-center justify-center  h-[45vh] md:h-[45vh] mb-12  bg-[url('/img/banner2.png')] bg-fixed bg-topbg-cover">
+      <div className="relative flex items-center justify-center  h-[45vh] md:h-[45vh] mb-12  bg-[url('/img/banner2.png')] bg-fixed bg-center bg-cover">
         {/* Overlay */}
         <div className="absolute top-0 left-0 right-0 bottom-0  h-[45vh]  bg-black/70 z-[2]"></div>
         {/* End Overlay */}

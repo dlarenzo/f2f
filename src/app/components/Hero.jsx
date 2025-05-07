@@ -2,7 +2,10 @@ import React from "react";
 
 const Hero = ({ heading, heading2 }) => {
   return (
-    <div className="flex items-center justify-center mt-25 h-[55vh] lg:h-[95vh] mb-12 bg-[url('/img/hero_bg.jpg')] bg-fixed bg-center bg-cover">
+    <div
+      id="home"
+      className="flex items-center justify-center mt-25 h-[55vh] lg:h-[95vh] mb-12 bg-[url('/img/hero_bg.jpg')] bg-fixed bg-center bg-cover"
+    >
       {/* Overlay */}
       <div className="absolute top-0 left-0 right-0 bottom-0 mt-25 h-[55vh] lg:h-[95vh]  bg-black/70 z-[2]" />
       {/* End Overlay */}
