@@ -4,10 +4,11 @@ import Goals from "./components/Goals";
 import Support from "./components/Support";
 import About from "./components/About";
 import Solutions from "./components/Solutions";
+import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <div>
+    <div className="mx-auto ">
       <Hero heading="Coaching You To " heading2="Financial Success" />
       <Goals
         heading="What Are Your Retirement Goals?"
@@ -31,6 +32,7 @@ export default function Home() {
       <Solutions heading="Investment Solutions" />
       <Support button="Learn More" />
       <About heading="About Us" />
+      <Contact heading="Contact Us" />
     </div>
   );
 }

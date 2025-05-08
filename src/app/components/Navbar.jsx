@@ -31,6 +31,12 @@ const Navbar = () => {
             <Link href="#home">Home</Link>
           </li>
           <li className="font-semibold text-lg hover:text-yellow-400">
+            <Link href="#goals">Goals</Link>
+          </li>
+          <li className="font-semibold text-lg hover:text-yellow-400">
+            <Link href="#investments">Investments</Link>
+          </li>
+          <li className="font-semibold text-lg hover:text-yellow-400">
             <Link href="#about">About</Link>
           </li>
           <li className="font-semibold text-lg hover:text-yellow-400">
@@ -61,6 +67,18 @@ const Navbar = () => {
               className="p-4 text-4xl text-white font-semibold hover:text-yellow-400"
             >
               <Link href="/">Home</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl text-white font-semibold hover:text-yellow-400"
+            >
+              <Link href="#goals">Goals</Link>
+            </li>
+            <li
+              onClick={handleNav}
+              className="p-4 text-4xl text-white font-semibold hover:text-yellow-400"
+            >
+              <Link href="#investments">Investments</Link>
             </li>
             <li
               onClick={handleNav}

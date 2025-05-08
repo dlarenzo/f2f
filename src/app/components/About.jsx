@@ -13,7 +13,7 @@ const About = ({ heading }) => {
         <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
           <div className="flex justify-center py-15">
             <Image
-              src="/img/temp_about_pic.jpg"
+              src="/img/lance2.jpg"
               alt="About Us"
               width={600}
               height={400}
