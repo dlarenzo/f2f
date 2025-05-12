@@ -5,6 +5,7 @@ import Support from "./components/Support";
 import About from "./components/About";
 import Solutions from "./components/Solutions";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -32,7 +33,8 @@ export default function Home() {
       <Solutions heading="Investment Solutions" />
       <Support button="Learn More" />
       <About heading="About Us" />
-      <Contact heading="Contact Us" />
+      <Contact />
+      <Footer />
     </div>
   );
 }
